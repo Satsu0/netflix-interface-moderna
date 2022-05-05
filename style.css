@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', Courier, monospace;
+    min-height: 200px;
+}
+
+header .titulo {
+    color: #E50914;
+    font-size: 50px;
+}
+
+header .container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+header .login-button {
+    background-color: #E50914;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+main {
+    background: linear-gradient(rgba(0, 0, 0, .70), rgba(0, 0, 0, .70)), url(img/movies.jpg);
+    min-height: 600px;
+    border-bottom: #222222 solid 8px;
+}
+
+main .container-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+    font-size: 30px;
+    color: white;
+}
+
+main .story-card {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+main .email-title {
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+main .email {
+    margin-top: 20px;
+    border: none;
+    min-width: 500px;
+    min-height: 50px;
+}
+
+main .container-email-form button {
+    border: none;
+    color: white;
+    background-color: #E50914;
+    padding: 17px;
+    cursor: pointer;
+}
+
+section {
+    min-height: 250px;
+    border-bottom: #222222 solid 8px;
+}
+
+section .container-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 80px;
+}
+
+section .section-image {
+    height: 300px;
+    width: 400px;
+}
+
+section .h1-section-text {
+    font-size: 50px;
+}
+
+section .paragraph-section-text {
+    padding-top: 20px;
+    font-size: 30px
+}
+
+section .container-section-image {
+    padding: 100px;
+}
+
+section .mobile-image {
+    height: 330px;
+    width: 440px;
+    
+}
+
+section .device-image {
+    height: 363px;
+    width: 484px;
+}
+
+section .kids-image {
+    height: 330px;
+    width: 440px;
+}
+
+footer {
+    margin: 50px 200px;
+}
+
+footer .footer-top {
+    color: gray;
+    font-size: 20px;
+}
+
+footer .anchor-footer {
+    text-decoration: none;
+    color: gray;
+}
+
+footer .anchor-footer:hover {
+    text-decoration: underline;
+}
+
+footer .container-anchor {
+    display: flex;
+    margin: 30px 0px;
+}
+
+footer .container-anchor ul {
+    column-count: 4;
+}
+
+footer .container-anchor li{
+    list-style: none;
+    padding-bottom: 30px;
+    margin-right: 70px;
+    font-size: 15px;
+}
+
+footer .footer-bot {
+    color: gray;
+    margin-top: 30px;
+    font-size: 15px;
+}
